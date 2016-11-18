@@ -13,7 +13,7 @@
     android:scaleType = "centerCrop">
 
     <Button
-        android:text="Button"
+        android:text=""
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:onClick="goContinent"
@@ -23,5 +23,6 @@
         android:layout_marginTop="285dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"/>
 </RelativeLayout>
