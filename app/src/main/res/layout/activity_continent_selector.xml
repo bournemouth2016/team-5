@@ -29,6 +29,32 @@
             android:layout_marginLeft="45dp"
             android:layout_marginStart="45dp"
             android:layout_marginTop="45dp"
-            android:id="@+id/imageButton3" />
+            android:id="@+id/africa" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/asia"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="345dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/asia" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/australia"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="645dp"
+            android:layout_marginStart="645dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/australia" />
     </RelativeLayout>
 </RelativeLayout>
