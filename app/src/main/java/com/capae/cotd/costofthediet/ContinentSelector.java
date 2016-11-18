@@ -9,5 +9,6 @@ public class ContinentSelector extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_continent_selector);
+        getActionBar().setTitle("Select Continent");
     }
 }
