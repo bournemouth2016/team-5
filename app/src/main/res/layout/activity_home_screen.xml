@@ -8,22 +8,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.capae.cotd.costofthediet.HomeScreen">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+    tools:context="com.capae.cotd.costofthediet.HomeScreen"
+    android:background="@drawable/mainmenu"
+    android:scaleType = "centerCrop">
 
     <Button
         android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_marginTop="63dp"
         android:onClick="goContinent"
-        android:id="@+id/gotoActivity" />
+        android:id="@+id/gotoActivity"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="105dp"
+        android:layout_marginEnd="105dp" />
 </RelativeLayout>
