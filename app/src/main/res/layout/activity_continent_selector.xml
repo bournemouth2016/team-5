@@ -18,6 +18,15 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/worldmap"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView" />
+
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
@@ -26,8 +35,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="45dp"
-            android:layout_marginStart="45dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="45dp"
             android:id="@+id/africa" />
 
@@ -39,8 +48,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="345dp"
-            android:layout_marginStart="345dp"
+            android:layout_marginLeft="450dp"
+            android:layout_marginStart="450dp"
             android:layout_marginTop="45dp"
             android:id="@+id/asia" />
 
@@ -52,9 +61,63 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="645dp"
-            android:layout_marginStart="645dp"
+            android:layout_marginLeft="750dp"
+            android:layout_marginStart="750dp"
             android:layout_marginTop="45dp"
             android:id="@+id/australia" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/middleeast"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/middleeast" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/northamerica"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/northamerica" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/europe"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="450dp"
+            android:layout_marginStart="450dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/europe" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/southamerica"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="750dp"
+            android:layout_marginStart="750dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/southamerica" />
+
+
     </RelativeLayout>
 </RelativeLayout>
