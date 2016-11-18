@@ -18,10 +18,10 @@
         android:layout_height="wrap_content"
         android:onClick="goContinent"
         android:id="@+id/gotoActivity"
-        android:layout_marginTop="85dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginTop="65dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="105dp"
-        android:layout_marginEnd="105dp" />
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
