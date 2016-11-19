@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_diet_kenya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.capae.cotd.costofthediet.DietKenya">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/worldmap"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/kenya"
+            android:onClick="goArea"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/kenya" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/madagascar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/madagascar" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mali"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="600dp"
+            android:layout_marginStart="600dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/mali" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/niger"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="900dp"
+            android:layout_marginStart="900dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/niger" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/senegal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/senegal" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/zambia"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="450dp"
+            android:layout_marginStart="450dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/zambia" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/zimbabwe"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="750dp"
+            android:layout_marginStart="750dp"
+            android:layout_marginTop="340dp"
+            android:id="@+id/zimbabwe" />
+
+    </RelativeLayout>
+</RelativeLayout>
