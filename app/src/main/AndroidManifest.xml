@@ -24,6 +24,8 @@
         <activity android:name=".DietKenya" android:screenOrientation="landscape" />
         <activity android:name=".KenyaFamily" android:screenOrientation="landscape"/>
         <activity android:name=".FamilySize" android:screenOrientation="landscape"/>
+        <activity android:name=".ChildIngredients" android:screenOrientation="landscape"/>
+
     </application>
 
 </manifest>
