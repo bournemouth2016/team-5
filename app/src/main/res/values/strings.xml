@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CostOfTheDiet</string>
+    <string name="title_activity_asia_selector">AsiaSelector</string>
 </resources>

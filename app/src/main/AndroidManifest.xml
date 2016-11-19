@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ContinentSelector"></activity>
+        <activity android:name=".ContinentSelector" />
+        <activity android:name=".AsiaSelector"></activity>
     </application>
 
 </manifest>
