@@ -1,5 +1,6 @@
 package com.capae.cotd.costofthediet;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -65,5 +66,10 @@ public class FamilySize extends AppCompatActivity {
                 vCalc.setVisibility(View.INVISIBLE);
                 vMem.setVisibility(View.INVISIBLE);
             }
+
+    public void goIngredients(View view){
+        Intent intent = new Intent(this, ChildIngredients.class);
+        startActivity(intent);
+    }
 
 }

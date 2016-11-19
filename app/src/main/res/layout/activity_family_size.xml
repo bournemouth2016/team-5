@@ -63,6 +63,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="fitCenter"
+        android:onClick="goIngredients"
         app:srcCompat="@drawable/childgender"
         android:id="@+id/imageButton5"
         android:layout_marginTop="107dp"
