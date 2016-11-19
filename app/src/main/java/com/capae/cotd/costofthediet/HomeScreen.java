@@ -22,4 +22,9 @@ public class HomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this, NutritionGenderChoice.class);
         startActivity(intent);
     }
+
+    public void goFood(View view){
+        Intent intent = new Intent(this, FoodGroupDir.class);
+        startActivity(intent);
+    }
 }

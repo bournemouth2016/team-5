@@ -39,4 +39,18 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="@android:color/transparent"/>
+
+    <Button
+        android:text=""
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:onClick="goFood"
+        android:id="@+id/gotoFood"
+        android:layout_marginRight="344dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="415dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"/>
 </RelativeLayout>
