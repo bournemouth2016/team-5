@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_food_group_dir"
+    android:id="@+id/activity_beverage_select"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.capae.cotd.costofthediet.FoodGroupDir">
+    tools:context="com.capae.cotd.costofthediet.BeverageSelect">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,214 +27,212 @@
             android:layout_alignParentStart="true"
             android:id="@+id/imageView" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            android:onClick="goBev"
-            app:srcCompat="@drawable/beveragesbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="55dp"
+            android:text="Beverage 1"
             android:id="@+id/beverages" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/compositedishesbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="195dp"
+            android:text="Beverage 2"
             android:id="@+id/composited" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/eggsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="335dp"
+            android:text="Beverage 3"
             android:id="@+id/egg" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/fishseafoodbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="475dp"
+            android:text="Beverage 4"
             android:id="@+id/fish" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/fruitbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
             android:layout_marginTop="55dp"
+            android:text="Beverage 5"
             android:id="@+id/fruit" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/grainsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
             android:layout_marginTop="195dp"
+            android:text="Beverage 6"
             android:id="@+id/grains" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/herbsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
             android:layout_marginTop="335dp"
+            android:text="Beverage 7"
             android:id="@+id/herbs" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/infantbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
             android:layout_marginTop="475dp"
+            android:text="Beverage 8"
             android:id="@+id/infant" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/legumesbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
             android:layout_marginTop="55dp"
+            android:text="Beverage 9"
             android:id="@+id/legumes" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/meatbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
             android:layout_marginTop="195dp"
+            android:text="Beverage 10"
             android:id="@+id/meat" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/milkbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
             android:layout_marginTop="335dp"
+            android:text="Beverage 11"
             android:id="@+id/milk" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/oilsandfatsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
             android:layout_marginTop="475dp"
+            android:text="Beverage 12"
             android:id="@+id/oils" />
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/rootsandtubersbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
             android:layout_marginTop="55dp"
+            android:text="Beverage 13"
             android:id="@+id/roots" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/sugarsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
             android:layout_marginTop="195dp"
+            android:text="Beverage 14"
             android:id="@+id/sugar" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/supplementsbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
             android:layout_marginTop="335dp"
+            android:text="Beverage 15"
             android:id="@+id/supplements" />
 
-        <ImageButton
+        <Button
             android:layout_width="225dp"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/vegetablesbutton"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
             android:layout_marginTop="475dp"
+            android:text="Beverage 16"
             android:id="@+id/vegetables" />
-
     </RelativeLayout>
 
 </RelativeLayout>
