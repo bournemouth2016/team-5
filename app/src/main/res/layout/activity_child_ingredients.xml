@@ -26,6 +26,20 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/stats"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="408dp"
+        android:id="@+id/stats"
+        android:onClick="ShowTable"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
