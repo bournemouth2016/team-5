@@ -45,19 +45,6 @@
         android:minHeight="56dp" />
 
     <TextView
-        android:text="Nutrients:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="49dp"
-        android:layout_marginStart="49dp"
-        android:id="@+id/NutrientsText"
-        android:layout_alignBottom="@+id/CostText"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="39dp"
-        android:visibility="invisible"/>
-
-    <TextView
         android:text="Cost:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,7 +53,11 @@
         android:layout_above="@+id/calculate"
         android:layout_alignLeft="@+id/NutrientsText"
         android:layout_alignStart="@+id/NutrientsText"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        tools:textSize="36sp"
+        tools:textColor="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
 
     <ImageButton
         android:layout_width="150dp"
@@ -102,6 +93,21 @@
         android:layout_toEndOf="@+id/imageButton8"
         android:layout_marginLeft="46dp"
         android:layout_marginStart="46dp" />
+
+    <TextView
+        android:text="Nutrients:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:id="@+id/NutrientsText"
+        android:layout_marginBottom="18dp"
+        android:visibility="invisible"
+        android:textSize="36sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_above="@+id/CostText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
