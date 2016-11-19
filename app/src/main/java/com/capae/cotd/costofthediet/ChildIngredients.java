@@ -19,7 +19,16 @@ public class ChildIngredients extends AppCompatActivity {
     public void ShowTable(View view) {
 
         View vTbl = (ImageView) findViewById(R.id.imageView3);
+        View vCh = (ImageView) findViewById(R.id.imageView5);
+        vCh.setVisibility(View.INVISIBLE);
+        vTbl.setVisibility(View.VISIBLE);
+    }
 
+    public void ShowChart(View view) {
+
+        View vTbl = (ImageView) findViewById(R.id.imageView5);
+        View vCh = (ImageView) findViewById(R.id.imageView3);
+        vCh.setVisibility(view.INVISIBLE);
         vTbl.setVisibility(View.VISIBLE);
     }
 }
