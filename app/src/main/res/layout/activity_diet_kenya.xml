@@ -29,55 +29,55 @@
 
         <ImageButton
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="150dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/kenya"
+            app:srcCompat="@drawable/energyonly"
             android:onClick="goFamily"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="250dp"
             android:id="@+id/kenya" />
 
         <ImageButton
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="150dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/madagascar"
+            app:srcCompat="@drawable/macronutrients"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="250dp"
             android:id="@+id/madagascar" />
 
         <ImageButton
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="150dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/mali"
+            app:srcCompat="@drawable/nutritous"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="250dp"
             android:id="@+id/mali" />
 
         <ImageButton
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="150dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/niger"
+            app:srcCompat="@drawable/foodhabits"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="250dp"
             android:id="@+id/niger" />
 
     </RelativeLayout>
