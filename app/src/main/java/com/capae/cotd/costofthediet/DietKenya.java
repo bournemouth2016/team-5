@@ -13,7 +13,7 @@ public class DietKenya extends AppCompatActivity {
         setContentView(R.layout.activity_diet_kenya);
     }
     public void goFamily(View view){
-        Intent intent = new Intent(this, KenyaFamily.class);
+        Intent intent = new Intent(this, FamilySize.class);
         startActivity(intent);
 
     }
