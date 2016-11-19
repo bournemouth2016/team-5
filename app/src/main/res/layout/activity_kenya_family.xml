@@ -29,6 +29,7 @@
 
         <Button
             android:text="Add Family Member"
+            android:onClick="goFamSize"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
