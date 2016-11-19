@@ -36,8 +36,8 @@ public class FamilySize extends AppCompatActivity {
             womanFoodCost = "867.71";
             manFoodCost = "421.95";
 
-            TotalCost = String.valueOf(Double.parseDouble(childFoodCost) + Double.parseDouble(womanFoodCost) + Double.parseDouble(manFoodCost));
-            TotalNutrients = String.valueOf(Double.parseDouble(childFoodWeight) + Double.parseDouble(womanFoodWeight) + Double.parseDouble(manFoodWeight));
+            TotalCost = "Total Cost: " + String.valueOf(Double.parseDouble(childFoodCost) + Double.parseDouble(womanFoodCost) + Double.parseDouble(manFoodCost));
+            TotalNutrients = "Total Nutrients: " +String.valueOf(Double.parseDouble(childFoodWeight) + Double.parseDouble(womanFoodWeight) + Double.parseDouble(manFoodWeight));
         }
         else if (continent == "" && country == "")
         {
@@ -57,9 +57,13 @@ public class FamilySize extends AppCompatActivity {
 
                 View vCostText = (TextView) findViewById(R.id.CostText);
                 View vNutrientsText = (TextView) findViewById(R.id.NutrientsText);
+                View vCalc = (Button) findViewById(R.id.calculate);
+                View vMem = (ImageButton) findViewById(R.id.addMember);
 
                 vCostText.setVisibility(View.VISIBLE);
                 vNutrientsText.setVisibility(View.VISIBLE);
+                vCalc.setVisibility(View.INVISIBLE);
+                vMem.setVisibility(View.INVISIBLE);
             }
 
 }
