@@ -13,8 +13,13 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
     }
 
-    public void goContinent(View view){
+    public void goArea(View view){
         Intent intent = new Intent(this, ContinentSelector.class);
+        startActivity(intent);
+    }
+
+    public void goNutrition(View view){
+        Intent intent = new Intent(this, NutritionGenderChoice.class);
         startActivity(intent);
     }
 }

@@ -13,14 +13,28 @@
     android:scaleType = "centerCrop">
 
     <Button
+    android:text=""
+    android:layout_width="300dp"
+    android:layout_height="80dp"
+    android:onClick="goArea"
+    android:id="@+id/gotoArea"
+    android:layout_marginRight="344dp"
+    android:layout_marginEnd="130dp"
+    android:layout_marginTop="285dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:background="@android:color/transparent"/>
+
+    <Button
         android:text=""
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:onClick="goContinent"
-        android:id="@+id/gotoActivity"
+        android:onClick="goNutrition"
+        android:id="@+id/gotoNutrition"
         android:layout_marginRight="344dp"
         android:layout_marginEnd="130dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginTop="160dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
