@@ -36,8 +36,8 @@ public class FamilySize extends AppCompatActivity {
             womanFoodCost = "867.71";
             manFoodCost = "421.95";
 
-            TotalCost = "Total Cost: " + String.valueOf(Double.parseDouble(childFoodCost) + Double.parseDouble(womanFoodCost) + Double.parseDouble(manFoodCost));
-            TotalNutrients = "Total Nutrients: " +String.valueOf(Double.parseDouble(childFoodWeight) + Double.parseDouble(womanFoodWeight) + Double.parseDouble(manFoodWeight));
+            TotalCost = "Total Cost for food for family: " + String.valueOf(Double.parseDouble(childFoodCost) + Double.parseDouble(womanFoodCost) + Double.parseDouble(manFoodCost));
+            TotalNutrients = "Total Weight needed to meet energy requirements for family: " +String.valueOf(Double.parseDouble(childFoodWeight) + Double.parseDouble(womanFoodWeight) + Double.parseDouble(manFoodWeight)) +"g";
         }
         else if (continent == "" && country == "")
         {
