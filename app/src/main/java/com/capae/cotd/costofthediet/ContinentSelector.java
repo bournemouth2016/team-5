@@ -7,6 +7,8 @@ import android.view.View;
 
 public class ContinentSelector extends AppCompatActivity {
 
+    public static String continent = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -25,6 +27,7 @@ public class ContinentSelector extends AppCompatActivity {
 
     public void goAfrica(View view){
         Intent intent = new Intent(this, AfricaSelector.class);
+        continent = "Africa";
         startActivity(intent);
     }
 }

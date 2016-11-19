@@ -21,7 +21,8 @@
         <activity android:name=".NutritionGenderChoice" />
         <activity android:name=".FoodGroupDir" />
         <activity android:name=".ModelSelector" />
-        <activity android:name=".DietKenya"></activity>
+        <activity android:name=".DietKenya" />
+        <activity android:name=".KenyaFamily"></activity>
     </application>
 
 </manifest>

@@ -7,6 +7,8 @@ import android.view.View;
 
 public class AfricaSelector extends AppCompatActivity {
 
+    public static String country = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,6 +17,8 @@ public class AfricaSelector extends AppCompatActivity {
 
     public void goArea(View view){
         Intent intent = new Intent(this, ModelSelector.class);
+        country = "Kenya";
         startActivity(intent);
+
     }
 }
