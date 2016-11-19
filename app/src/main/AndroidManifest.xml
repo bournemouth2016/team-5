@@ -47,7 +47,8 @@
         <activity
             android:name=".ChildIngredients"
             android:screenOrientation="landscape" />
-        <activity android:name=".BeverageSelect"></activity>
+        <activity android:name=".BeverageSelect" />
+        <activity android:name=".AgeChoice"></activity>
     </application>
 
 </manifest>
