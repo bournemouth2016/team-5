@@ -8,22 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeScreen">
+        <activity android:name=".HomeScreen" android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ContinentSelector" />
-        <activity android:name=".AsiaSelector" />
-        <activity android:name=".AfricaSelector" />
-        <activity android:name=".NutritionGenderChoice" />
-        <activity android:name=".FoodGroupDir" />
-        <activity android:name=".ModelSelector" />
-        <activity android:name=".DietKenya" />
-        <activity android:name=".KenyaFamily"/>
-        <activity android:name=".FamilySize"/>
+        <activity android:name=".ContinentSelector" android:screenOrientation="landscape" />
+        <activity android:name=".AsiaSelector" android:screenOrientation="landscape" />
+        <activity android:name=".AfricaSelector" android:screenOrientation="landscape" />
+        <activity android:name=".NutritionGenderChoice" android:screenOrientation="landscape" />
+        <activity android:name=".FoodGroupDir" android:screenOrientation="landscape" />
+        <activity android:name=".ModelSelector" android:screenOrientation="landscape" />
+        <activity android:name=".DietKenya" android:screenOrientation="landscape" />
+        <activity android:name=".KenyaFamily" android:screenOrientation="landscape"/>
+        <activity android:name=".FamilySize" android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
