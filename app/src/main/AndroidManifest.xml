@@ -19,7 +19,8 @@
         <activity android:name=".AsiaSelector" />
         <activity android:name=".AfricaSelector" />
         <activity android:name=".NutritionGenderChoice" />
-        <activity android:name=".FoodGroupDir"></activity>
+        <activity android:name=".FoodGroupDir" />
+        <activity android:name=".ModelSelector"></activity>
     </application>
 
 </manifest>

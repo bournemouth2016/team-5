@@ -32,6 +32,7 @@
             android:layout_height="250dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/kenya"
+            android:onClick="goModelAfrica"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
