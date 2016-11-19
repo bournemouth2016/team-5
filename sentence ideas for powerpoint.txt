@@ -1,0 +1,7 @@
+The aim of the project is to design and implement the 'Cost of Diet' application, improving its simplicity and usability. 
+The system will be interfaced with a graphical user interface (GUI) written within Android Studio.
+
+Any user with basic smart device experience that uses the program should find it simple, efficient and easy to use. 
+The readability and navigation aspects of the system are simple for all types of users with photographs to help clarify.
+
+The system is partially functional- further development is needed.
