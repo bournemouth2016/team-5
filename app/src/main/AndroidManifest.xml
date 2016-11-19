@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ContinentSelector" />
-        <activity android:name=".AsiaSelector"></activity>
+        <activity android:name=".AsiaSelector" />
+        <activity android:name=".AfricaSelector"></activity>
     </application>
 
 </manifest>

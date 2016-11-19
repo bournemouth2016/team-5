@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_continent_selector"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_africa_selector"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="16dp"
-    tools:context="com.capae.cotd.costofthediet.ContinentSelector">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.capae.cotd.costofthediet.AfricaSelector">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -31,95 +31,92 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/africa"
-            android:onClick="goAfrica"
+            app:srcCompat="@drawable/kenya"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
             android:layout_marginTop="45dp"
-            android:id="@+id/africa" />
+            android:id="@+id/kenya" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/asia"
-            android:onClick="goAsia"
+            app:srcCompat="@drawable/madagascar"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="300dp"
             android:layout_marginStart="300dp"
             android:layout_marginTop="45dp"
-            android:id="@+id/asia" />
+            android:id="@+id/madagascar" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/australia"
+            app:srcCompat="@drawable/mali"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="600dp"
             android:layout_marginStart="600dp"
             android:layout_marginTop="45dp"
-            android:id="@+id/australia" />
+            android:id="@+id/mali" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/middleeast"
+            app:srcCompat="@drawable/niger"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="900dp"
             android:layout_marginStart="900dp"
             android:layout_marginTop="45dp"
-            android:id="@+id/middleeast" />
+            android:id="@+id/niger" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/northamerica"
+            app:srcCompat="@drawable/senegal"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="150dp"
             android:layout_marginStart="150dp"
             android:layout_marginTop="340dp"
-            android:id="@+id/northamerica" />
+            android:id="@+id/senegal" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/europe"
+            app:srcCompat="@drawable/zambia"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="450dp"
             android:layout_marginStart="450dp"
             android:layout_marginTop="340dp"
-            android:id="@+id/europe" />
+            android:id="@+id/zambia" />
 
         <ImageButton
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/southamerica"
+            app:srcCompat="@drawable/zimbabwe"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="750dp"
             android:layout_marginStart="750dp"
             android:layout_marginTop="340dp"
-            android:id="@+id/southamerica" />
-
+            android:id="@+id/zimbabwe" />
 
     </RelativeLayout>
 </RelativeLayout>

@@ -1,0 +1,13 @@
+package com.capae.cotd.costofthediet;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class AfricaSelector extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_africa_selector);
+    }
+}

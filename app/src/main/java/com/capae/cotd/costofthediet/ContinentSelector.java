@@ -18,8 +18,13 @@ public class ContinentSelector extends AppCompatActivity {
 
     }
 
-    public void goAfrica(View view){
+    public void goAsia(View view){
         Intent intent = new Intent(this, AsiaSelector.class);
+        startActivity(intent);
+    }
+
+    public void goAfrica(View view){
+        Intent intent = new Intent(this, AfricaSelector.class);
         startActivity(intent);
     }
 }
