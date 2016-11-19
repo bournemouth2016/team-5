@@ -2,13 +2,18 @@ package com.capae.cotd.costofthediet;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class FamilySize extends AppCompatActivity {
-
+    public String TotalCost, TotalNutrients;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_family_size);
@@ -30,6 +35,9 @@ public class FamilySize extends AppCompatActivity {
             childFoodCost = "185.40";
             womanFoodCost = "867.71";
             manFoodCost = "421.95";
+
+            TotalCost = String.valueOf(Double.parseDouble(childFoodCost) + Double.parseDouble(womanFoodCost) + Double.parseDouble(manFoodCost));
+            TotalNutrients = String.valueOf(Double.parseDouble(childFoodWeight) + Double.parseDouble(womanFoodWeight) + Double.parseDouble(manFoodWeight));
         }
         else if (continent == "" && country == "")
         {
@@ -40,4 +48,18 @@ public class FamilySize extends AppCompatActivity {
             //Shouldn't be here
         }
     }
+    public void ShowData(View view) {
+
+                TextView tvCost = (TextView)findViewById(R.id.CostText);
+                TextView tvNutrients = (TextView)findViewById(R.id.NutrientsText);
+                tvCost.setText(TotalCost);
+                tvNutrients.setText(TotalNutrients);
+
+                View vCostText = (TextView) findViewById(R.id.CostText);
+                View vNutrientsText = (TextView) findViewById(R.id.NutrientsText);
+
+                vCostText.setVisibility(View.VISIBLE);
+                vNutrientsText.setVisibility(View.VISIBLE);
+            }
+
 }
