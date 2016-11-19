@@ -1,0 +1,13 @@
+
+Auto sync, like Spotify for the database
+more user friendly design
+clean and simple
+pictures for ease and simplicity with great flow
+Big buttons
+Built in offline database
+
+Designed buttons and graphics using photoshop
+
+coded software in android studio
+
+git hub and atom for other misilanious things
