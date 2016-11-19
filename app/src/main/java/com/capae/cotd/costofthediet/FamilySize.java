@@ -16,6 +16,10 @@ public class FamilySize extends AppCompatActivity {
             String childFoodWeight = "4985";
             String womanFoodWeight = "6942";
             String manFoodWeight = "5752";
+
+            String childFoodCost = "185.40";
+            String womanFoodCost = "867.71";
+            String manFoodCost = "421.95";
         }
         else if (continent == "" && country == "")
         {
